@@ -83,18 +83,12 @@ header nav {
 
 header nav a {
     margin-left: 65px;
+    color: black;
 }
 
 a:link {
     text-decoration: none;
 }
-
-a:hover {
-    color: coral;
-}
-
-
-
 
 .top-content {
     display: flex;
