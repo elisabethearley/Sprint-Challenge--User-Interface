@@ -79,15 +79,21 @@ header {
 
 header nav {
     margin: 20px;
+
 }
 
 header nav a {
-    margin-left: 65px;
+    margin-left: 25px;
+    margin-right: 44px;
     color: black;
 }
 
 a:link {
     text-decoration: none;
+}
+
+a:hover {
+    color: rgb(57, 138, 245);
 }
 
 .top-content {
@@ -210,38 +216,34 @@ footer nav a {
 /*About Page Starts Here*/
 .top-content-about .header-about {
     padding: 20px;
+    border-bottom: 1px dashed black;
 }
-
-.top-content-about .header-about div {
-    border: 2px;
-    border-color: red;
-}
-
 
 .main-content-about {
     display: flex;
     margin-top: 20px;
-    margin-left: 20px;
+    margin-left: 5px;
 }
 
 .main-content-about div {
     justify-content: space-between;
-    margin-top: 20px;
+    margin-top: 10px;
     margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .main-content-about .left {
-    padding-right: 20px;
-    border-bottom: 5px;
-    border-bottom-color: red;
+    padding-right: 10px;
+    border-bottom: 1px dashed black;
 }
 
 .main-content-about .right {
-    padding-left: 20px;
+    padding-left: 10px;
+    border-bottom: 1px dashed black;
 }
 
 .main-content-about h2 {
-    margin-top: 20px;
+    margin-top: 10px;
 }
 
 .main-content-about button {
@@ -254,8 +256,21 @@ footer nav a {
     background-color: white;
     border-color: black;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-content-about button:hover {
+    background-color: black;
+    color: white;
+}
+
+.border {
+    color: white;
+    margin: 1px;
+    border-top: 1px dashed white;
 }
 
 .bottom-content-about {
     padding: 20px;
+    margin-bottom: 10px;
 }
