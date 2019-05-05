@@ -207,3 +207,33 @@ footer nav a {
     color: white;
     text-decoration: none;
 }
+/*About Page Starts Here*/
+.top-content-about .header-about {
+    padding: 20px;
+}
+
+.main-content-about {
+    display: flex;
+    margin-left: 20px;
+}
+
+.main-content-about div {
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.main-content-about div .left {
+    padding-right: 10px;
+}
+
+.main-content-about div .right {
+    padding-left: 10px;
+}
+
+.main-content-about h2 {
+    margin-top: 20px;
+}
+
+.bottom-content-about {
+    padding: 20px;
+}
