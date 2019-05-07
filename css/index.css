@@ -233,12 +233,12 @@ footer nav a {
 }
 
 .main-content-about .left {
-    padding-right: 10px;
+    padding-right: 2px;
     border-bottom: 1px dashed black;
 }
 
 .main-content-about .right {
-    padding-left: 10px;
+    padding-left: 5px;
     border-bottom: 1px dashed black;
 }
 
