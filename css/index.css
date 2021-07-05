@@ -71,12 +71,41 @@ p {
     margin: 0 auto;
 }
 
+header {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header nav {
+    margin: 20px;
+
+}
+
+header nav a {
+    margin-left: 25px;
+    margin-right: 44px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hover {
+    color: rgb(57, 138, 245);
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.top-content img {
+    margin-bottom: 20px;
 }
 
 .top-content .text-container {
@@ -112,6 +141,46 @@ p {
     justify-content: center;
 }
 
+#one {
+    background-color: teal;
+}
+
+#two {
+    background-color: gold;
+}
+
+#three {
+    background-color: cadetblue;
+}
+
+#four {
+    background-color: coral;
+}
+
+#five {
+    background-color: crimson;
+}
+
+#six {
+    background-color: forestgreen;
+}
+
+#seven {
+    background-color: darkorchid;
+}
+
+#eight {
+    background-color: hotpink;
+}
+
+#nine {
+    background-color: indigo;
+}
+
+#ten {
+    background-color: dodgerblue;
+}
+
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -143,4 +212,65 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+/*About Page Starts Here*/
+.top-content-about .header-about {
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+
+.main-content-about {
+    display: flex;
+    margin-top: 20px;
+    margin-left: 5px;
+}
+
+.main-content-about div {
+    justify-content: space-between;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+}
+
+.main-content-about .left {
+    padding-right: 2px;
+    border-bottom: 1px dashed black;
+}
+
+.main-content-about .right {
+    padding-left: 5px;
+    border-bottom: 1px dashed black;
+}
+
+.main-content-about h2 {
+    margin-top: 10px;
+}
+
+.main-content-about button {
+    width: 130px;
+    height: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: inherit;
+    margin-top: 20px;
+    background-color: white;
+    border-color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.main-content-about button:hover {
+    background-color: black;
+    color: white;
+}
+
+.border {
+    color: white;
+    margin: 1px;
+    border-top: 1px dashed white;
+}
+
+.bottom-content-about {
+    padding: 20px;
+    margin-bottom: 10px;
 }
